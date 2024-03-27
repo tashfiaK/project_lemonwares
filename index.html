@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LemonWares</title>
+    <!--CSS LINKS-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+        <!-- font awesome link -->
+        <script src="https://kit.fontawesome.com/675fbc22c1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="container">
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid px-0">
+            <!-- header logo here -->
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" class="img-fluid h_logo" alt="Lemon Wares">
+            </a>
+            <!-- toggler button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nsc" aria-controls="nsc" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="nsc">
+              <!-- nav-item start -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Our Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog&News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Account</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i>+2349067322844</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- slider start -->
+    <section class="slider">
+      <div class="container">
+        <!-- slider button start -->
+        <div class="btn-group slider_btn_grp" role="group" aria-label="Basic outlined example">
+          <a href="#hosting" class="btn s_top_btn text-decoration-none" onclick="showHosting()" >Hosting</a>
+          <a href="#domain" class="btn s_top_btn text-decoration-none" onclick="showDomain()">Domain</a>
+          <a href="#seo" class="btn s_top_btn text-decoration-none" onclick="showSeo()">Seo</a>
+          <a href="#email" class="btn s_top_btn text-decoration-none" onclick="showEmail()">Email</a>
+        </div>
+        <!-- slider button end -->
+        <!-- slider content 1 start -->
+        <div class="slider_content" id="hosting">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <h1 class="s_h1 mb-0">Premium Web Hosting for Your Website</h1>
+              <p class="h_p cus_width">Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><button class="btn s_btn">Create an Account</button></li>
+                <li class="list-inline-item"><button class="btn s_btn">Choose your plan</button></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="s_img">
+                <img src="images/slider.jpg" alt="LemonWares" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider content 2 start -->
+        <div class="slider_content" id="domain">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <h1 class="s_h1 mb-0">Premium domain for Your Website</h1>
+              <p class="h_p cus_width">Blazing fast domain for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><button class="btn s_btn">Create an Account</button></li>
+                <li class="list-inline-item"><button class="btn s_btn">Choose your plan</button></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="s_img">
+                <img src="images/slider.jpg" alt="LemonWares" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider content 3 start -->
+        <div class="slider_content" id="seo">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <h1 class="s_h1 mb-0"> Personalized SEO for Your Website or work</h1>
+              <p class="h_p cus_width">Blazing fast Email service for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><button class="btn s_btn">Create an Account</button></li>
+                <li class="list-inline-item"><button class="btn s_btn">Choose your plan</button></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="s_img">
+                <img src="images/slider.jpg" alt="LemonWares" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider content 4 start -->
+        <div class="slider_content" id="email">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="s_h1 mb-0">Personalized Email for Your Website or work</h1>
+              <p class="h_p cus_width">Blazing fast SEO service for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><button class="btn s_btn">Create an Account</button></li>
+                <li class="list-inline-item"><button class="btn s_btn">Choose your plan</button></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="s_img">
+                <img src="images/slider.jpg" alt="LemonWares" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- slider end -->
+    <!-- hosting start -->
+    <section class="hosting">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="hosting_content">
+              <h2 class="cmn_h2">True Cloud Web Hosting</h2>
+              <p class="h_p"> 
+                True Cloud Web Hosting All of the hosting packages we offer are 
+                deployed instantly on our SSD powered cloud. We don’t use dedicated 
+                servers that operate on single pieces of hardware. Our entire infrastructure 
+                is built to be reliable, secure, and scalable.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="row">
+              <!-- hosting img 1 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img">
+                  <img src="images/cPanel.png" class="img-fluid" alt="cpanel">
+                </div>
+              </div>
+              <!-- hosting img 2 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img">
+                  <img src="images/secured-by-Imunify360-green 1.png" class="img-fluid" alt="secure by immunity 360">
+                </div>
+              </div>
+              <!-- hosting img 3 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img">
+                  <img src="images/litespeed-logo 1.png" class="img-fluid" alt="litespeed">
+                </div>
+              </div>
+              <!-- hosting img 4 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img">
+                  <img src="images/softaculous.png" class="img-fluid" alt="softacolous">
+                </div>
+              </div>
+              <!-- hosting img 5 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img">
+                  <img src="images/wordPress.png" class="img-fluid" alt="wordPress">
+                </div>
+              </div>
+              <!-- hosting img 6 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img">
+                  <img src="images/cloudFlare.png" class="img-fluid" alt="cloudflare">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hosting end -->
+    <!-- feature start -->
+    <div class="feature">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 col-sm-8 col-8 text-center">
+            <div class="f_img">
+              <img src="images/feature1.png" alt="LemonWares" class="img-fluid">
+            </div>
+            <h3 class="cmn_h3">99.9% Uptime</h3>
+            <p class="f_p">We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-8 col-8 text-center">
+            <div class="f_img">
+              <img src="images/feature2.png" alt="LemonWares" class="img-fluid">
+            </div>
+            <h3 class="cmn_h3">Blazing Fast Web Hosting</h3>
+            <p class="f_p">We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-8 col-8 text-center">
+            <div class="f_img">
+              <img src="images/feature3.png" alt="LemonWares" class="img-fluid">
+            </div>
+            <h3 class="cmn_h3">Free SSL Certificates</h3>
+            <p class="f_p">We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-8 col-8 text-center">
+            <div class="f_img">
+              <img src="images/feature4.png" alt="LemonWares" class="img-fluid">
+            </div>
+            <h3 class="cmn_h3">24x7 Friendly Support</h3>
+            <p class="f_p">We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- package start -->
+    <div class="package">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="package_header">
+              <h2 class="cmn_h2 mb-0">Ready to get started with Lemon Wares?</h2>
+              <p class="h_p">Choose the package that suits you</p>
+              <!-- package buttons - monthly/yearly -->
+              <div class="package_btn_1">
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item"><a href="#m_packages" id="monthly_btn" class="text-decoration-none">Monthly</a></li>
+                  <li class="list-inline-item"><p id="m_icon" class="mb-0" ><img src="images/icons8-toggle-off-96.png" alt="toggle" class="img-fluid cus_toggle" onclick="toggleOn()" ondblclick="toggleOff()"></p></li>
+                  <li class="list-inline-item"><a href="#y_packages" id="yearly_btn" class="text-decoration-none">Yearly</a></li>
+                  <li class="list-inline-item"><p class="discount_p">20% discount</p></li>
+                </ul>
+              </div>
+              <div class="btn_group package_btn_group" role="group" aria-label="Basic outlined example">
+                <a href="#m_basic" class="btn mb_btn" onclick="showBasic()">Basic</a>
+                <a href="#m_premium" class="btn mp_btn" onclick="showPremium()">Premium</a>
+                <a href="#y_basic" class="btn yb_btn">Basic</a>
+                <a href="#y_premium" class="btn yp_btn">Premium</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <!-- package option details -->
+          <div class="col-lg-4 col-md-8">
+            <div class="starter" id="m_basic">
+              <h3 class="s_h3 mb-0">Starter</h3>
+              <p class="s_p">with all your customers via all conversation channels in one central dashboard.</p>
+              <h2 class="cost_h2 mb-0">$2.80</h2>
+              <p class="s_p m-0">Per month</p>
+              <button class="btn s_btn p_btn">Choose this plan</button>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2GB SSD</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">10GB Bandwidth</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">15 Email Accounts</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Unlimited Database</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">4 Subdomains</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">1 Parked Domain</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2 Websites</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Free SSL</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Softaculous</li>
+              </ul>
+            </div>
+          </div>
+          <!-- package option details -->
+          <div class="col-lg-4 col-md-8">
+            <div class="starter" id="m_basic">
+              <h3 class="s_h3 mb-0">Standard</h3>
+              <p class="s_p">with all your customers via all conversation channels in one central dashboard.</p>
+              <h2 class="cost_h2 mb-0">$4.20</h2>
+              <p class="s_p m-0">Per month</p>
+              <button class="btn s_btn p_btn">Choose this plan</button>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2GB SSD</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">10GB Bandwidth</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">15 Email Accounts</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Unlimited Database</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">4 Subdomains</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">1 Parked Domain</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2 Websites</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Free SSL</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Softaculous</li>
+              </ul>
+            </div>
+          </div>
+          <!-- package option details -->
+          <div class="col-lg-4 col-md-8">
+            <div class="starter" id="m_basic">
+              <h3 class="s_h3 mb-0">Premium</h3>
+              <p class="s_p">with all your customers via all conversation channels in one central dashboard.</p>
+              <h2 class="cost_h2 mb-0">$7.00</h2>
+              <p class="s_p m-0">Per month</p>
+              <button class="btn s_btn p_btn">Choose this plan</button>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2GB SSD</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">10GB Bandwidth</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">15 Email Accounts</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Unlimited Database</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">4 Subdomains</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">1 Parked Domain</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2 Websites</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Free SSL</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Softaculous</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- PREMIUM PACKAGES -->
+          <!-- package option details -->
+          <div class="col-lg-4 col-md-8">
+            <div class="starter" id="m_premium">
+              <h3 class="s_h3 mb-0">Supreme</h3>
+              <p class="s_p">with all your customers via all conversation channels in one central dashboard.</p>
+              <h2 class="cost_h2 mb-0">$6.80</h2>
+              <p class="s_p m-0">Per month</p>
+              <button class="btn s_btn p_btn">Choose this plan</button>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2GB SSD</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">10GB Bandwidth</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">15 Email Accounts</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Unlimited Database</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">4 Subdomains</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">1 Parked Domain</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2 Websites</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Free SSL</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Softaculous</li>
+              </ul>
+            </div>
+          </div>
+          <!-- package option details -->
+          <div class="col-lg-4 col-md-8">
+            <div class="starter" id="m_premium">
+              <h3 class="s_h3 mb-0">UltimateSupreme</h3>
+              <p class="s_p">with all your customers via all conversation channels in one central dashboard.</p>
+              <h2 class="cost_h2 mb-0">$9.80</h2>
+              <p class="s_p m-0">Per month</p>
+              <button class="btn s_btn p_btn">Choose this plan</button>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2GB SSD</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">10GB Bandwidth</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">15 Email Accounts</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Unlimited Database</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">4 Subdomains</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">1 Parked Domain</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2 Websites</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Free SSL</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Softaculous</li>
+              </ul>
+            </div>
+          </div>
+          <!-- package option details -->
+          <div class="col-lg-4 col-md-8">
+            <div class="starter" id="m_premium">
+              <h3 class="s_h3 mb-0">Deluxe</h3>
+              <p class="s_p">with all your customers via all conversation channels in one central dashboard.</p>
+              <h2 class="cost_h2 mb-0">$11.80</h2>
+              <p class="s_p m-0">Per month</p>
+              <button class="btn s_btn p_btn">Choose this plan</button>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2GB SSD</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">10GB Bandwidth</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">15 Email Accounts</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Unlimited Database</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">4 Subdomains</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">1 Parked Domain</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">2 Websites</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Free SSL</li>
+              </ul>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-solid fa-check"></i></li>
+                <li class="list-inline-item">Softaculous</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- package end -->
+    <!-- testimonial start -->
+    <section class="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="left position-relative">
+              <div class="quote_bg">
+                <img src="images/largeQuote.png" class="img-fluid opacity-50 position-absolute top-0 start-0" alt="">
+              </div>
+              <h2 class="cmn_h2 cus_padding">Real Stories from real customers</h2>
+              <p class="h_p cus_padding">Get inspired by these stories</p>
+              <div class="single_testimony1">
+                <div class="t_logo">
+                  <img src="images/Crypto-Learn-Invest.png" alt="crypto learn invest" class="img-fluid">
+                </div>
+                <p class="h_p t_p1"><span><i class="fa-solid fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+                  ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem
+                </p>
+                <h3 class="t_h3 mb-0">Floyd Miles</h3>
+                <p class="t_p2">Vice President, CLI</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="right">
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+                  <div class="single_testimony2">
+                    <div class="t2_logo">
+                      <img src="images/jpnl.png" alt="" class="img-fluid">
+                    </div>
+                    <p class="h_p t2_p1"><sup><sup><img src="images/Quote Mark.png" alt=""></sup></sup> <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+                      ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem</span>
+                    </p>
+                    <h3 class="t_h3 mb-0">Jane Cooper</h3>
+                    <p class="t2_p2">CEO, JPNL</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+                  <div class="single_testimony3">
+                    <div class="t_logo">
+                      <img src="images/LeeveOn-Branding.png" class="img-fluid" alt="">
+                    </div>
+                    <p class="h_p t3_p1"><span><sup><i class="fa-solid fa-quote-left"></i></sup></span>LemonWares saved our time in Hosting my company page.</p>
+                    <h3 class="t_h3">Kristin Watson</h3>
+                    <p class="t2_p2 t3_p2" >Co-Founder, LeeveOn Brand</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial end -->
+    <!-- serve start -->
+    <section class="serve">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="hosting_content serve_content">
+              <h2 class="cmn_h2 mb-0">We serve over 100
+                Nigerian Websites</h2>
+              <p class="h_p mb-0"> 
+                Connect LemonWares with your favourite tools that you use daily 
+                and keep things on track.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="row">
+              <!-- hosting img 1 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img serve_img">
+                  <img src="images/jpnl.png" class="img-fluid" alt="JPNL">
+                </div>
+              </div>
+              <!-- hosting img 2 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img serve_img">
+                  <img src="images/Korane-Scents.png" class="img-fluid" alt="Korane Scents">
+                </div>
+              </div>
+              <!-- hosting img 3 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img serve_img">
+                  <img src="images/Nadine-Ghaida.png" class="img-fluid" alt="nadine Ghaida">
+                </div>
+              </div>
+              <!-- hosting img 4 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img serve_img">
+                  <img src="images/LeeveOn-Branding.png" class="img-fluid" alt="LeeveOn Branding">
+                </div>
+              </div>
+              <!-- hosting img 5 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img serve_img">
+                  <img src="images/Jrango-Glasses.png" class="img-fluid" alt="Jrango Glasses">
+                </div>
+              </div>
+              <!-- hosting img 6 -->
+              <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                <div class="hosting_img serve_img">
+                  <img src="images/Crypto-Learn-Invest.png" class="img-fluid" alt="CLI">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- serve end -->
+    <!-- contact start -->
+    <div class="contact">
+      <div class="container">
+        <div class="c_background">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-sm-8 col-12 text-center">
+              <span class="triangle1 position-absolute top-0 start-50"></span>
+              <h2 class="cmn_h2">We're here to make your website awesome.</h2>
+              <span class="triangle2 position-absolute top-50 start-0 translate-middle"></span>
+              <button class="btn contact_btn"><i class="fa-brands fa-whatsapp"></i>Get in touch with us</button>
+              <span class="triangle3 position-absolute  bottom-0 start-100 translate-middle"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact end -->
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <!-- 1st row -->
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+            <div class="f_logo">
+              <img src="images/footerLogo.png" alt="lemonwares" class="img-fluid">
+            </div>
+            <p class="footer_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem</p>
+          </div>
+          <!-- f_options start -->
+          <div class="col-lg col-md-6 col-sm-6 col-12">
+            <div class="f_options">
+              <ul>
+                <li><h3 class="f_h3">Service</h3></li>
+                <li><a href="#" class="text-decoration-none">Domain</a></li>
+                <li><a href="#" class="text-decoration-none">Shared Hosting</a></li>
+                <li><a href="#" class="text-decoration-none">Cloud Hosting</a></li>
+                <li><a href="#" class="text-decoration-none">Private Hosting</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- f_options start -->
+          <div class="col-lg col-md-6 col-sm-6 col-12">
+            <div class="f_options">
+              <ul>
+                <li><h3 class="f_h3">Hosting</h3></li>
+                <li><a href="#" class="text-decoration-none">Cheap Hosting</a></li>
+                <li><a href="#" class="text-decoration-none">Hostin WordPress</a></li>
+                <li><a href="#" class="text-decoration-none">Email Hosting</a></li>
+                <li><a href="#" class="text-decoration-none">Hosting Unlimited</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- f_options start -->
+          <div class="col-lg col-md-6 col-sm-6 col-12">
+            <div class="f_options">
+              <ul>
+                <li><h3 class="f_h3">Company</h3></li>
+                <li><a href="#" class="text-decoration-none">About</a></li>
+                <li><a href="#" class="text-decoration-none">Career</a></li>
+                <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- f_options start -->
+          <div class="col-lg col-md-6 col-sm-6 col-12">
+            <div class="f_options">
+              <ul>
+                <li><h3 class="f_h3">Help</h3></li>
+                <li><a href="#" class="text-decoration-none">FAQ</a></li>
+                <li><a href="#" class="text-decoration-none">Help Support</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2nd row -->
+        <div class="row">
+          <p class="footer_p">Built by Jeremiah with love in Lagos. Copyright 2021</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+
+
+
+    <!--JS LINKS-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
